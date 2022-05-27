@@ -64,23 +64,36 @@ a {
     color:#ff0000
 
 }
+/*---------titre------------------------------------------------*/
+
+h1 {
+    text-align: center;
+}
 
 /*--------------------------------banner-------------------------------------*/
 
 .banner {
-    width: 100%;
+   width: 100%;
     
     
 }
 
-/*-------------------------------BLOCS--------------------- toto ---------------*/
+/*-------------------------------BLOCS------------------------------*/
 
-.container {
-   
-    width:1800px;
-    max-width: 100%; /*qdo ultrapassar 1200px, fazer 100% da largura*/
+.sobremim {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    align-items: center;
+
+    max-width: 100%; 
     margin: 0 auto;
     
+}
+
+.sobre {
+    width: 40%;
 }
 
 
@@ -102,17 +115,30 @@ a {
     
 }
 
+/*------- sobre o curso--------------------*/
 
 
 
 
 
 
+/*----------------TESTEOFRANCES-----------------*/
 
+.testefrances {
+    display: flex;
+    flex-wrap: wrap;
 
+    justify-content: space-around;
+    align-items: center;
 
+    max-width: 100%; 
+    margin: 0 auto;
+    
+}
 
-
+.teste {
+    width: 40%;
+}
 
 
 
@@ -134,13 +160,20 @@ a {
     }
 
     .banner {
-        width: 120%;
+        width: 110%;
     }
 
-    .box {
+    .sobre {
         width: 100%;
         padding: 0 15px;
         margin-bottom: 35px;
+        text-align: center;
     }
 
+    .teste {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
 }
