@@ -1,0 +1,146 @@
+/*FONTS*/
+
+
+
+
+
+
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*------------------------------Style menu-------------------------------------------- */
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:white;
+
+    justify-content:space-between;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu ul {
+    display: flex;
+    
+}
+
+.menu ul li a {
+    color: #171181;
+    padding: 20px;
+    display: block; 
+    font-size: 18px;
+}
+
+.menu img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    
+
+}
+
+.menu :hover {
+    color:#ff0000
+
+}
+
+/*--------------------------------banner-------------------------------------*/
+
+.banner {
+    width: 100%;
+    
+    
+}
+
+/*-------------------------------BLOCS------------------------------------*/
+
+.container {
+   
+    width:1800px;
+    max-width: 100%; /*qdo ultrapassar 1200px, fazer 100% da largura*/
+    margin: 0 auto;
+    
+}
+
+
+.bigbox {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    align-items: center;
+
+    color: #383735;
+    text-align: justify;
+}
+
+
+.box {
+    width: 45%;
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    
+
+    nav, ul {
+        flex-direction: column;
+        text-align: center;
+    }
+   
+    
+
+    .menu ul li a {
+        padding:10px;
+    }
+
+    .banner {
+        width: 120%;
+    }
+
+    .box {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 35px;
+    }
+
+}
