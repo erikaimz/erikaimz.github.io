@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Accueil</title>
 </head>
 
@@ -71,15 +69,15 @@
         </div>
     </section>
 
-    <div class="d-flex flex-wrap justify-content-center mb-5 col-xl-12 col-lg-8 col-8 mx-auto ">
+    <div class="curso">
 
-        <div style="flex:1; min-width: 300px; max-width: 400px;" class=" y">
+        <div class="curso1">
             <img src="img/personalizado.png" alt="metodopersonalizado">
             <h5>MÉTODO PERSONALIZADO</h5>
             Aulas e materiais didáticos adaptados a cada aluno de acordo com o seu objetivo e o seu ritmo.
         </div>
 
-        <div style="flex:1; min-width: 300px; max-width: 400px;" class=" r">
+        <div class="curso1">
 
             <img src="img/material.png" alt="materialincluso">
             <h5>MATERIAL DIDÁTICO INCLUSO</h5>
@@ -87,18 +85,28 @@
 
         </div>
 
-        <div style="flex:1; min-width: 300px; max-width: 400px;" class=" ">
-            <img style="display: block;" class="mx-auto" src="img/distancia presencial.png" alt="aulaonlineepresencial">
+        <div class="curso1">
+            <img src="img/distancia presencial.png" alt="aulaonlineepresencial">
             <h5>AULAS ONLINE OU PRESENCIAIS</h5>
             Aulas à distância ou presenciais (dependendo da localização, sujeito à acréscimo de valor). Aulas
             individuais ou em grupo.
         </div>
 
-        <div style="flex:1; min-width: 300px; max-width: 400px;" class=" ">
+        <div class="curso1">
 
             <img src="img/investimento.png" alt="investimento">
 
             <h5>INVESTIMENTO</h5>
+            
+            <label for="modalExemplo" class="abrirModal">Ver os valores</label>
+            <input type="checkbox" id="modalExemplo" class="checkboxModal">
+
+            <div class="modal">
+                <label for="modalExemplo" class="fecharModal">X</label>
+                <div class="conteudoModal">
+                    <img src="img/tabela investimentos.jpg">
+                </div>
+            </div>
         </div>
 
     </div>
